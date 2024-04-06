@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="doc">
+    <h1>
+        <div class="corpo" id="calculadora">
+            <div id="calculadora">
+                <div id="visor"><span id="visorInfo" ></span></div>
+                <div id="buttonGrid"></div>
+            <div class="botoes">
+                <button class="botao" value="" onclick="calculadora.ligarCalculadora()">ON</button>
+                <input type="button" class="botao" value="/">
+                <input type="button" class="botao" value="*">
+                <input type="button" class="botao" value="-">
+                <input type="button" class="botao" value="7">
+                <input type="button" class="botao" value="8">
+                <input type="button" class="botao" value="9">
+                <input type="button" class="botao" value="+">
+                <input type="button" class="botao" value="4">
+                <input type="button" class="botao" value="5">
+                <input type="button" class="botao" value="6">
+                <input type="button" class="botao" value=".">
+                <input type="button" class="botao" value="3">
+                <input type="button" class="botao" value="2">
+                <input type="button" class="botao" value="1">
+                <button class="botao" value="=" onclick="calculadora.handleOperacoes()">=</button>
+                <input type="button" class="botao" value="0">
+                <input type="button" class="botao" value=",">
+                <button class="botao" value="" onclick="calculadora.apagaUltimoDigito()">Del</button>
+            </div>
+            </div>
+        </div>
+    </h1>
+    <script src="main.js"></script>
+</body>
+</html>

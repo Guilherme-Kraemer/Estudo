@@ -1,32 +1,93 @@
 .doc{
     background-color: rgb(49, 15, 15);
     height: 900vh;
+    margin: 2px;
 }
 
-.zen-dots-regular {
-    font-family: "Zen Dots", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
 .title{
-    font-size: 80px;
+    font-size: 70px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(63, 42, 42);
     text-align: center;
-    margin: 0px;
+    margin: 50px;
 }
 
 .pagina{
     margin-left: 60px;
 }
 
+.miniresumo{
+    flex-direction: column;
+    display: flex;
+    float: right;
+}
+
+.miniperfil{
+    height: 800px;
+    width: 425px;
+    float: right;
+    margin-right: 80px;
+    border: solid 1px;
+    border-color: #ffffff;
+    border-radius: 3%;
+}
+
 .sub_title{
-    color: #142480;
+    color: rgb(63, 42, 42);
     font-family: 'Zen Dots', sans-serif;
     font-weight: auto;
     font-style: normal;
-} 
+    font-size: 30px;
+    width: 400px;
+    float: right;
+    margin: 0px 20px;
+    text-align: justify;
+}
+
+div .fotoperfil{
+    height: 425px;
+    display: flex;
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 10%;
+    float: right;
+}
+
+.redessociais{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+div .redesocial{
+    padding: 5px 10px;
+    font-size: 20px;
+    transition: 1s;
+    width: fit-content;
+}
+
+.redesocial:hover{
+    transform: scale(1.1) translatex(5%);
+}
+
+a.linksocial{
+    color: rgb(219, 218, 218);
+    display: flex;
+    width: 125px;
+    height: 70px;
+    align-items: center;
+    text-decoration: none;
+}
+
+span.linksocial{
+    margin-left: 20px;
+}
+
+.iconsocial{
+    color:rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 50px;
+}
 
 .menu-lateral{
     width: 60px;
@@ -43,6 +104,10 @@
 
 .menu-lateral.expandir{
     width: 200px;
+}
+
+.menu-lateral.expandir .txt-link{
+    margin-left: 30px;
 }
 
 .btn-expandir{
@@ -85,29 +150,4 @@ ul li.item-menu a{
 ul li.item-menu a .txt-link{
     margin-left: 55px;
     transition: .5s;
-}
-
-.redesocial{
-    margin-left: 60px;
-    font-size: 15px;
-    transition: 1s;
-}
-
-.redesocial:hover{
-    transform: scale(1.5);
-}
-
-.menu-lateral.expandir .txt-link{
-    margin-left: 30px;
-}
-
-.box{
-    background-color: white;
-    font-size: 50 px;
-    text-align: center;
-    writing-mode: horizontal-tb;
-}
-
-.link-voltar{
-
 }
