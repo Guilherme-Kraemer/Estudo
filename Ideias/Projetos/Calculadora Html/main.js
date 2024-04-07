@@ -45,11 +45,11 @@ window.document.getElementById("visorInfo");
     //Exibe valor na tela
     exibeValoresDigitados (valor) {
       
-      if(String(valor).length < 9){
+      if(String(valor).length < 8){
       this.visor.innerText = valor;
       } else {
         this.visor.innerText = 
-String(valor).slice(0,8)+"...";
+      String(valor).slice(0,8)+"...";
       }
       
       
