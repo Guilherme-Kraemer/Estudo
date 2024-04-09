@@ -20,3 +20,23 @@ var menuSide = document.querySelector('.menu-lateral')
 btnExp.addEventListener('click', function(){
   menuSide.classList.toggle('expandir')
 })
+
+const mySwiper = new Swiper('.swiper' , {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  loop:true,
+  autoplay: true,
+  slidesPerView: '2',
+  coverflowEffect: {
+      rotate: 10,
+      strech: 0,
+      depth: 300,
+      modifier: 1,
+      slideShadows: true
+  },
+  pagination: {
+      el: '.swiper-pagination' ,
+      clickable: true
+  }
+});
