@@ -28,15 +28,12 @@ const mySwiper = new Swiper('.swiper' , {
   loop:true,
   autoplay: true,
   slidesPerView: '2',
+  speed: 1000,
   coverflowEffect: {
-      rotate: 10,
-      strech: 0,
-      depth: 300,
+      rotate: 5,
+      strech: 50,
+      depth: 100,
       modifier: 1,
       slideShadows: true
-  },
-  pagination: {
-      el: '.swiper-pagination' ,
-      clickable: true
   }
 });
