@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "c:/Users/guica/Desktop/VS/Git/Estudo de Linguagens/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -13,7 +13,30 @@
             "compilerPath": "C:\\Users\\guica\\Desktop\\VS\\.vscode\\output\\mingw64\\bin\\gcc.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "${default}"
+            "intelliSenseMode": "windows-clang-x64",
+            "compilerPathInCppPropertiesJson": "C:\\Users\\guica\\Desktop\\VS\\.vscode\\output\\mingw64\\bin\\gcc.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "c:/Users/guica/Desktop/VS/Git/Estudo de Linguagens/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Users\\guica\\Desktop\\VS\\.vscode\\output\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17"
         }
     ],
     "version": 4
