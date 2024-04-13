@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <windows.h>
 
-#define LAR 20
+#define LAR 40
 #define ALT 40
 
 bool gameover;
