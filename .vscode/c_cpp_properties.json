@@ -1,43 +1,20 @@
 {
-    "configurations": [
-        {
-            "name": "Win32",
-            "includePath": [
-                "c:/Users/guica/Desktop/VS/Git/Estudo de Linguagens/**"
-            ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "C:\\Users\\guica\\Desktop\\VS\\.vscode\\output\\mingw64\\bin\\gcc.exe",
-            "cStandard": "c17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "windows-clang-x64",
-            "compilerPathInCppPropertiesJson": "C:\\Users\\guica\\Desktop\\VS\\.vscode\\output\\mingw64\\bin\\gcc.exe",
-            "mergeConfigurations": false,
-            "browse": {
-                "path": [
-                    "c:/Users/guica/Desktop/VS/Git/Estudo de Linguagens/**",
-                    "${workspaceFolder}"
-                ],
-                "limitSymbolsToIncludedHeaders": true
-            }
-        },
-        {
-            "name": "Win64",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "C:\\Users\\guica\\Desktop\\VS\\.vscode\\output\\mingw64\\bin\\gcc.exe",
-            "cStandard": "c17",
-            "cppStandard": "gnu++17"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "windows-msvc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "compilerPath": "cl.exe",
+      "cStandard": "c11",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ],
+  "version": 4
 }
