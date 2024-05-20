@@ -3,6 +3,7 @@
 #include <conio.h>
 #include <stdbool.h>
 #include <windows.h>
+#include "../../../../.vscode/output/ucrt64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h"
 
 #define LAR 20
 #define ALT 40
@@ -108,12 +109,12 @@ void Input()
         switch (_getch())
         {
         case 'a':
-            if (playerX > 1) // Limita o movimento do jogador para não sair da borda
+            if (playerX > 1) // Limita o movimento do jogador para nï¿½o sair da borda
                 playerX--;
                 bufferplayer = playerX+1;
             break;
         case 'd':
-            if (playerX < LAR) // Limita o movimento do jogador para não sair da borda
+            if (playerX < LAR) // Limita o movimento do jogador para nï¿½o sair da borda
                 playerX++;
                 bufferplayer = playerX-1;
             break;
@@ -166,7 +167,7 @@ int main()
 
     while (!gameover)
     {
-        setCursorPosition(0, 0); // Posiciona o cursor no início da tela
+        setCursorPosition(0, 0); // Posiciona o cursor no inï¿½cio da tela
         Draw();
         Input();
         Logic();
